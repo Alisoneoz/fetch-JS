@@ -30,7 +30,7 @@ const displayUsers = async () => {
         <p>Name: ${name}</p>
         <p>Userrname: ${username}</p>
         </div>`
-    });
+    }).join("");
 
     display.innerHTML = dataDisplay
 }
